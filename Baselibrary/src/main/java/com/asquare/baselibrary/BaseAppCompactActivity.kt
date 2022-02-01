@@ -14,7 +14,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.viewbinding.ViewBinding
-
+//<*/created by Ajay Rana 2022*/>
 abstract class BaseAppCompactActivity : AppCompatActivity() {
 
     abstract val isMakeStatusBarTransparent: Boolean

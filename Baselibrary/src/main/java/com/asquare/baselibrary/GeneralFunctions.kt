@@ -5,6 +5,7 @@ import android.os.Environment
 import android.util.Log
 import java.io.File
 
+//<*/created by Ajay Rana 2022*/>
 object GeneralFunctions {
 
     private const val ALPHA_NUMERIC_CHARS =

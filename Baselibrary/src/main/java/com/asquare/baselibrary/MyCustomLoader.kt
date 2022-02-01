@@ -13,6 +13,7 @@ import androidx.core.content.ContextCompat
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 
+//<*/created by Ajay Rana 2022*/>
 class MyCustomLoader(private val mContext: Context?) {
 
     private var mDialog: Dialog? = null
