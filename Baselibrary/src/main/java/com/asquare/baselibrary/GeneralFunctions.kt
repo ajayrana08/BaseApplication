@@ -8,8 +8,7 @@ import java.io.File
 //<*/created by Ajay Rana 2022*/>
 object GeneralFunctions {
 
-    private const val ALPHA_NUMERIC_CHARS =
-        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+    private const val ALPHA_NUMERIC_CHARS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
     internal const val JPEG_FILE_PREFIX = "IMG_"
     internal const val JPEG_FILE_SUFFIX = ".jpg"
     internal const val VIDEO_FILE_PREFIX = "VID_"

@@ -46,7 +46,7 @@ abstract class BaseAppCompactActivity : AppCompatActivity() {
     }
 
 
-    fun AppCompatActivity.doFragmentTransaction(
+    fun doFragmentTransaction(
         fragManager: FragmentManager = supportFragmentManager,
         @IdRes containerViewId: Int,
         fragment: Fragment,
@@ -81,7 +81,7 @@ abstract class BaseAppCompactActivity : AppCompatActivity() {
     }
 
 
-    fun AppCompatActivity.openShareDialog(
+    fun openShareDialog(
         shareHeading: String = getString(R.string.share_via),
         shareSubject: String = getString(R.string.app_name),
         messageToShare: String

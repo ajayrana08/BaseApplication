@@ -37,8 +37,7 @@ abstract class BaseFragment : Fragment() {
 
     fun showMessage(
         resId: Int? = null, message: String? = null,
-        isShowSnackbarMessage: Boolean = false
-    ) {
+        isShowSnackbarMessage: Boolean = false) {
         if (isShowSnackbarMessage) {
             mMyCustomLoader.showSnackBar(view, message ?: getString(resId!!))
         } else {
